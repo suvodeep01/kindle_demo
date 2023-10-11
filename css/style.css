@@ -11885,4 +11885,11 @@ a:hover{
   margin-top: 10px !important;
 }
 
+/* index notice */
+@media(max-width:320px){
+  #notice_icon{
+    display: none;
+  }
+}
+
 /* suvodee nayek css end */
