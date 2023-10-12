@@ -11885,11 +11885,75 @@ a:hover{
   margin-top: 10px !important;
 }
 
+/* course pages */
+.modal_list ul{
+  margin: 0px;
+  padding: 0px;
+  margin-top: 20px;
+}
+.modal_list ul li{
+  list-style: none;
+  margin: 8px 0px;
+}
+.modal_list ul li a{
+  color: #7d8185;
+  font-size: 15px;
+  font-weight: 300;
+}
+.book_icon{
+  padding-right: 10px;
+  color: #0a267a;
+}
+.text_top{
+  padding-top: 20px;
+}
+.icon_clas{
+  background: transparent !important;
+}
+
+/* notice .page-breadcrumb section */
+.notice_main_text h2{
+  color: #000 !important;
+}
+
+.notice_board{
+  width: 100%;
+  height: 100%;
+  border: 2px solid #0a267a;
+  border-radius: 5px;
+  height: 450px;
+}
+.notice_board h2{
+  margin: 0px;
+  text-align: center;
+  padding: 15px 0px;
+  background-color: #0a267a;
+  color: #fff;
+  font-size: 25px;
+}
+.notice_mar_page li{
+  color: #000;
+  padding: 8px 20px;
+}
+
 /* index notice */
-@media(max-width:320px){
+@media(max-width:360px){
   #notice_icon{
-    display: none;
+    position: relative;
+    background-color: #127FC4;
+    z-index: 999;
+  }
+  #notice_icon i{
+    position: absolute;
+    left: 0;
   }
 }
 
+/* contact responsive */
+@media (max-width:426px){
+  #reset_btn{
+    margin-top: 15px !important;
+    margin-bottom: 10px !important;
+  }
+} 
 /* suvodee nayek css end */
