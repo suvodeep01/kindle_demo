@@ -11956,4 +11956,24 @@ a:hover{
     margin-bottom: 10px !important;
   }
 } 
+
+.feature-block-two .inner-box:hover .title{
+  color: #127FC4 !important;
+}
+
+.social-icon-two li a:hover{
+  background-color: #127FC4 !important;
+}
+
+#reset_btn{
+  background-color: #127FC4 !important;
+}
+
+.team-block .inner-box:hover .image-box:after{
+  border-color: #127FC4 !important;
+}
+
+.contact-details__info li:hover .icon{
+  background-color: #000 !important;
+}
 /* suvodee nayek css end */
