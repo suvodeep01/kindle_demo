@@ -11859,6 +11859,10 @@ a:hover{
   color: #127FC4 !important;
 }
 
+#about_owner{
+  border-radius: 0px 260px 260px 290px;
+}
+
 /* mision & vision page */
 #text_margin{
   margin-top: 15px;
@@ -11976,4 +11980,9 @@ a:hover{
 .contact-details__info li:hover .icon{
   background-color: #000 !important;
 }
-/* suvodee nayek css end */
+
+/* examination page */
+#job_btn a{
+  background-color: #127FC4 !important;
+}
+/* suvodeep nayek css end */
